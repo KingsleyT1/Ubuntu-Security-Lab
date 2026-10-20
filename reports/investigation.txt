@@ -1,0 +1,16 @@
+Ubuntu Security Investigation
+
+Event: Failed sudo authentication
+Date: October 19,2026
+User: bobt
+
+Finding:
+An authentication failure was identified in the Ubuntu system logs.
+
+Investigation: 
+Used journalctl and grep to search for failed authentication events.
+
+Result: 
+The failure was caused by intentionally enterning an incorrect password.
+
+Risk level: low
